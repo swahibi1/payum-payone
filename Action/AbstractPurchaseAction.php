@@ -146,7 +146,7 @@ abstract class AbstractPurchaseAction extends GatewayAwareAction implements Gene
     /**
      * {@inheritDoc}
      */
-    public function setLogger(LoggerInterface $logger)
+    public function setLogger(LoggerInterface $logger): void
     {
         $this->logger = $logger;
     }
