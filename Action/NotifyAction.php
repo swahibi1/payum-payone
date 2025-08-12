@@ -111,7 +111,7 @@ class NotifyAction extends GatewayAwareAction implements LoggerAwareInterface
     /**
      * {@inheritDoc}
      */
-    public function setLogger(LoggerInterface $logger)
+    public function setLogger(LoggerInterface $logger): void
     {
         $this->logger = $logger;
     }
